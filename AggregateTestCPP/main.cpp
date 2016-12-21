@@ -23,6 +23,8 @@ int main(int argc, const char **argv) {
     //
     // 测试___函数可变参数___initializer_list
     tstFuncArgs({"Arg1", "Arg2", "Arg3", "Arg4"});
+    // 测试___函数可变参数___<stdarg.h><cstdarg>__va_list_start_arg_end
+    tstFuncArgs(3, 11, 22, 33);
     
     return 0;
 }

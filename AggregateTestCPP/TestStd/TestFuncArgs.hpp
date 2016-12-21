@@ -13,6 +13,7 @@
 #include <iostream>
 #include <string>
 #include <initializer_list>
+#include <cstdarg> // #include <stdarg.h>
 
 
 /**
@@ -20,6 +21,14 @@
  *
  * @param il 可变参数列表
  */
-void tstFuncArgs( std::initializer_list<std::string> il );
+extern void tstFuncArgs( std::initializer_list<std::string> il );
+
+/**
+ * 测试___函数可变参数___<stdarg.h><cstdarg>__va_list_start_arg_end
+ *
+ * @param i   可变参数总数目
+ * @param ... 可变参数列表
+ */
+extern void tstFuncArgs( int i, ... );
 
 #endif /* TestFuncArgs_hpp */
