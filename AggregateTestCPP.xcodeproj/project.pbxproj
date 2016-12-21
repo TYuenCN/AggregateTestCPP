@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC8057691E0A4D560045E34D /* TestFuncArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC8057671E0A4D560045E34D /* TestFuncArgs.cpp */; };
 		ECD9D55A1E0A3E6800FDD03A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECD9D5591E0A3E6800FDD03A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EC8057671E0A4D560045E34D /* TestFuncArgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestFuncArgs.cpp; sourceTree = "<group>"; };
+		EC8057681E0A4D560045E34D /* TestFuncArgs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestFuncArgs.hpp; sourceTree = "<group>"; };
 		ECD9D5561E0A3E6800FDD03A /* AggregateTestCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AggregateTestCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD9D5591E0A3E6800FDD03A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC8057661E0A4D360045E34D /* TestStd */ = {
+			isa = PBXGroup;
+			children = (
+				EC8057681E0A4D560045E34D /* TestFuncArgs.hpp */,
+				EC8057671E0A4D560045E34D /* TestFuncArgs.cpp */,
+			);
+			path = TestStd;
+			sourceTree = "<group>";
+		};
 		ECD9D54D1E0A3E6700FDD03A = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +69,7 @@
 		ECD9D5581E0A3E6800FDD03A /* AggregateTestCPP */ = {
 			isa = PBXGroup;
 			children = (
+				EC8057661E0A4D360045E34D /* TestStd */,
 				ECD9D5591E0A3E6800FDD03A /* main.cpp */,
 			);
 			path = AggregateTestCPP;
@@ -119,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8057691E0A4D560045E34D /* TestFuncArgs.cpp in Sources */,
 				ECD9D55A1E0A3E6800FDD03A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +262,7 @@
 				ECD9D55F1E0A3E6800FDD03A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

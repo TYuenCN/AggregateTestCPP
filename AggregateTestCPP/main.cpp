@@ -7,6 +7,9 @@
 //
 
 #include <iostream>
+#include "TestFuncArgs.hpp"
+
+
 
 int main(int argc, const char **argv) {
     //
@@ -15,6 +18,11 @@ int main(int argc, const char **argv) {
     for (int i = 0; i != argc; i++) {
         std::cout << argv[i] << std::endl;
     }
+    
+    //
+    //
+    // 测试___函数可变参数___initializer_list
+    tstFuncArgs({"Arg1", "Arg2", "Arg3", "Arg4"});
     
     return 0;
 }
