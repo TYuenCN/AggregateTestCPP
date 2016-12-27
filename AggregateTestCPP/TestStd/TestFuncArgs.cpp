@@ -9,6 +9,20 @@
 #include "TestFuncArgs.hpp"
 
 
+
+/**
+ * 测试___函数可变参数___initializer_list
+ *
+ * @param il 可变参数列表
+ */
+void tstFuncArgs( std::initializer_list<std::string> il )
+{
+    for (auto beg = il.begin(); beg != il.end(); beg++) {
+        std::cout << "tstFuncArgs( std::initializer_list<std::string> il ):"
+        << *beg << std::endl;
+    }
+}
+
 /**
  * 测试___函数可变参数___<stdarg.h><cstdarg>__va_list_start_arg_end
  *
@@ -26,17 +40,4 @@ void tstFuncArgs( int i, ... )
         --i;
     }
     va_end(arg_ptr);
-}
-
-/**
- * 测试___函数可变参数___initializer_list
- *
- * @param il 可变参数列表
- */
-void tstFuncArgs( std::initializer_list<std::string> il )
-{
-    for (auto beg = il.begin(); beg != il.end(); beg++) {
-        std::cout << "tstFuncArgs( std::initializer_list<std::string> il ):"
-        << *beg << std::endl;
-    }
 }
