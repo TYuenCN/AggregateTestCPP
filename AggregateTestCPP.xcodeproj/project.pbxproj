@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		EC8057691E0A4D560045E34D /* TestFuncArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC8057671E0A4D560045E34D /* TestFuncArgs.cpp */; };
 		EC961D301E126E700014C7B1 /* TestMacroDefine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC961D2E1E126E700014C7B1 /* TestMacroDefine.cpp */; };
+		EC961D331E13B0D30014C7B1 /* TestClassInherit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC961D311E13B0D30014C7B1 /* TestClassInherit.cpp */; };
+		EC961D361E13BE820014C7B1 /* TestConstructor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC961D341E13BE820014C7B1 /* TestConstructor.cpp */; };
 		ECD9D55A1E0A3E6800FDD03A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECD9D5591E0A3E6800FDD03A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,10 @@
 		EC8057681E0A4D560045E34D /* TestFuncArgs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestFuncArgs.hpp; sourceTree = "<group>"; };
 		EC961D2E1E126E700014C7B1 /* TestMacroDefine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestMacroDefine.cpp; sourceTree = "<group>"; };
 		EC961D2F1E126E700014C7B1 /* TestMacroDefine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestMacroDefine.hpp; sourceTree = "<group>"; };
+		EC961D311E13B0D30014C7B1 /* TestClassInherit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestClassInherit.cpp; sourceTree = "<group>"; };
+		EC961D321E13B0D30014C7B1 /* TestClassInherit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestClassInherit.hpp; sourceTree = "<group>"; };
+		EC961D341E13BE820014C7B1 /* TestConstructor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestConstructor.cpp; sourceTree = "<group>"; };
+		EC961D351E13BE820014C7B1 /* TestConstructor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestConstructor.hpp; sourceTree = "<group>"; };
 		ECD9D5561E0A3E6800FDD03A /* AggregateTestCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AggregateTestCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD9D5591E0A3E6800FDD03A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +57,10 @@
 				EC961D2E1E126E700014C7B1 /* TestMacroDefine.cpp */,
 				EC8057681E0A4D560045E34D /* TestFuncArgs.hpp */,
 				EC8057671E0A4D560045E34D /* TestFuncArgs.cpp */,
+				EC961D351E13BE820014C7B1 /* TestConstructor.hpp */,
+				EC961D341E13BE820014C7B1 /* TestConstructor.cpp */,
+				EC961D321E13B0D30014C7B1 /* TestClassInherit.hpp */,
+				EC961D311E13B0D30014C7B1 /* TestClassInherit.cpp */,
 			);
 			path = TestStd;
 			sourceTree = "<group>";
@@ -139,7 +149,9 @@
 			files = (
 				EC8057691E0A4D560045E34D /* TestFuncArgs.cpp in Sources */,
 				EC961D301E126E700014C7B1 /* TestMacroDefine.cpp in Sources */,
+				EC961D331E13B0D30014C7B1 /* TestClassInherit.cpp in Sources */,
 				ECD9D55A1E0A3E6800FDD03A /* main.cpp in Sources */,
+				EC961D361E13BE820014C7B1 /* TestConstructor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +248,7 @@
 		ECD9D55E1E0A3E6800FDD03A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -244,6 +257,7 @@
 		ECD9D55F1E0A3E6800FDD03A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
