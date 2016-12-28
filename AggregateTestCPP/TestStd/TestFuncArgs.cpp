@@ -18,8 +18,12 @@
 void tstFuncArgs( std::initializer_list<std::string> il )
 {
     for (auto beg = il.begin(); beg != il.end(); beg++) {
-        std::cout << "tstFuncArgs( std::initializer_list<std::string> il ):"
+        std::cout << "for循环方式：tstFuncArgs( std::initializer_list<std::string> il ):"
         << *beg << std::endl;
+    }
+    
+    for( std::string str : il ){
+        std::cout << "for...in方式：tstFuncArgs( std::initializer_list<std::string> il ):" << std::endl;
     }
 }
 
