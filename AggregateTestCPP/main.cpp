@@ -6,6 +6,8 @@
 //  Copyright © 2016年 袁峥. All rights reserved.
 //
 
+//#define NDEBUG
+
 #include <iostream>
 #include "TestClass.hpp"
 #include "TestFuncArgs.hpp"
