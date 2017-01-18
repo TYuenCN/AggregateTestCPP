@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include "TestClass.hpp"
 #include "TestFuncArgs.hpp"
 #include "TestMacroDefine.hpp"
 #include "TestConstructor.hpp"
@@ -36,6 +37,14 @@ int main(int argc, const char **argv) {
     // 测试___函数可变参数___<stdarg.h><cstdarg>__va_list_start_arg_end
     tstFuncArgs(3, 11, 22, 33);
     
+    
+    //
+    //
+    // 测试___Class
+    std::cout << "⚠️测试：Class。" << std::endl;
+    MyClass mc{};
+    mc.testNonConstFunc();
+    mc.testConstFunc();
     
     //
     //
