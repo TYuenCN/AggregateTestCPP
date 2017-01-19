@@ -16,3 +16,7 @@ void MyClass::testNonConstFunc(){
 void MyClass::testConstFunc() const{
     std::cout << a << std::endl;
 }
+
+const MyClass & MyClass::testReturnThis() const {
+    return *this;
+}

@@ -17,6 +17,7 @@ public:
     int a = 1;
     void testNonConstFunc();
     void testConstFunc() const;
+    const MyClass &testReturnThis() const;
 };
 
 #endif /* TestClass_hpp */

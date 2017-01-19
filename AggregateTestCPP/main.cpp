@@ -14,6 +14,7 @@
 #include "TestMacroDefine.hpp"
 #include "TestConstructor.hpp"
 #include "TestClassInherit.hpp"
+#include "TestFloatOverflow.hpp"
 
 
 int main(int argc, const char **argv) {
@@ -63,6 +64,9 @@ int main(int argc, const char **argv) {
     std::cout << "⚠️测试：私有继承后的，\"访问声明\"。" << std::endl;
     SubClass sc(99);
     std::cout << "私有继承 BaseClass 后，使用\"访问声明\" 公开属性 BaseClass.iValA 并访问，值为:" << sc.iValA << std::endl;
+    
+    
+    TestFloatOverflow __tstOverflow;
     
     return 0;
 }
