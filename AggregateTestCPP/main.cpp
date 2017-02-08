@@ -16,6 +16,8 @@
 #include "TestClassInherit.hpp"
 #include "TestFloatOverflow.hpp"
 
+#include "KeyboardRow_500.hpp"
+
 
 int main(int argc, const char **argv) {
     //
@@ -68,5 +70,16 @@ int main(int argc, const char **argv) {
     
     TestFloatOverflow __tstOverflow;
     
+    
+    //
+    //
+    // Leet Code
+    std::cout << "⚠️--------------------------------" << std::endl;
+    std::cout << "⚠️测试：LeetCode" << std::endl;
+    vector<string> words = {"Hello", "Alaska", "Dad", "Peace"};
+    Solution500 s500;
+    vector<string> result500 = s500.findWords(words);
+    copy (result500.begin(), result500.end(), ostream_iterator<string> (std::cout, "\n"));
+
     return 0;
 }

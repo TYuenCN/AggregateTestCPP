@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EC14671D1E2F228200871E33 /* TestClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC14671B1E2F228200871E33 /* TestClass.cpp */; };
 		EC1467211E30E49700871E33 /* TestFloatOverflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC14671F1E30E49700871E33 /* TestFloatOverflow.cpp */; };
+		EC31F6C31E4ABF35004CEF73 /* KeyboardRow_500.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC31F6C11E4ABF35004CEF73 /* KeyboardRow_500.cpp */; };
 		EC8057691E0A4D560045E34D /* TestFuncArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC8057671E0A4D560045E34D /* TestFuncArgs.cpp */; };
 		EC961D301E126E700014C7B1 /* TestMacroDefine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC961D2E1E126E700014C7B1 /* TestMacroDefine.cpp */; };
 		EC961D331E13B0D30014C7B1 /* TestClassInherit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC961D311E13B0D30014C7B1 /* TestClassInherit.cpp */; };
@@ -33,6 +34,8 @@
 		EC14671C1E2F228200871E33 /* TestClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestClass.hpp; sourceTree = "<group>"; };
 		EC14671F1E30E49700871E33 /* TestFloatOverflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestFloatOverflow.cpp; sourceTree = "<group>"; };
 		EC1467201E30E49700871E33 /* TestFloatOverflow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestFloatOverflow.hpp; sourceTree = "<group>"; };
+		EC31F6C11E4ABF35004CEF73 /* KeyboardRow_500.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyboardRow_500.cpp; sourceTree = "<group>"; };
+		EC31F6C21E4ABF35004CEF73 /* KeyboardRow_500.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KeyboardRow_500.hpp; sourceTree = "<group>"; };
 		EC8057671E0A4D560045E34D /* TestFuncArgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestFuncArgs.cpp; sourceTree = "<group>"; };
 		EC8057681E0A4D560045E34D /* TestFuncArgs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestFuncArgs.hpp; sourceTree = "<group>"; };
 		EC961D2E1E126E700014C7B1 /* TestMacroDefine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestMacroDefine.cpp; sourceTree = "<group>"; };
@@ -63,6 +66,15 @@
 				EC14671F1E30E49700871E33 /* TestFloatOverflow.cpp */,
 			);
 			path = TestAlgorithm;
+			sourceTree = "<group>";
+		};
+		EC31F6C01E4ABF0E004CEF73 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				EC31F6C11E4ABF35004CEF73 /* KeyboardRow_500.cpp */,
+				EC31F6C21E4ABF35004CEF73 /* KeyboardRow_500.hpp */,
+			);
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 		EC8057661E0A4D360045E34D /* TestStd */ = {
@@ -103,6 +115,7 @@
 			children = (
 				EC8057661E0A4D360045E34D /* TestStd */,
 				EC14671E1E30C12700871E33 /* TestAlgorithm */,
+				EC31F6C01E4ABF0E004CEF73 /* LeetCode */,
 				ECD9D5591E0A3E6800FDD03A /* main.cpp */,
 			);
 			path = AggregateTestCPP;
@@ -166,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC14671D1E2F228200871E33 /* TestClass.cpp in Sources */,
+				EC31F6C31E4ABF35004CEF73 /* KeyboardRow_500.cpp in Sources */,
 				EC1467211E30E49700871E33 /* TestFloatOverflow.cpp in Sources */,
 				EC8057691E0A4D560045E34D /* TestFuncArgs.cpp in Sources */,
 				EC961D301E126E700014C7B1 /* TestMacroDefine.cpp in Sources */,
