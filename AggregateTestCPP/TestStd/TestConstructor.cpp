@@ -17,3 +17,7 @@ TestConstructor::TestConstructor( TestConstructor &obj )
 {
     std::cout << "TestConstructor \"拷贝\"构造器 called." << std::endl;
 }
+TestConstructor& TestConstructor::returnNewInstance(){
+    TestConstructor t;
+    return t;
+}

@@ -21,6 +21,8 @@ public:
     //
     // 拷贝构造器何时调用问题
     TestConstructor( TestConstructor &obj );
+    
+    TestConstructor& returnNewInstance();
 };
 
 #endif /* TestConstructor_hpp */

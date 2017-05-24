@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CDDFF541ED5601000908EA4 /* TestSingletonClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CDDFF521ED5601000908EA4 /* TestSingletonClass.cpp */; };
 		EC14671D1E2F228200871E33 /* TestClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC14671B1E2F228200871E33 /* TestClass.cpp */; };
 		EC1467211E30E49700871E33 /* TestFloatOverflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC14671F1E30E49700871E33 /* TestFloatOverflow.cpp */; };
 		EC31F6C31E4ABF35004CEF73 /* KeyboardRow_500.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC31F6C11E4ABF35004CEF73 /* KeyboardRow_500.cpp */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0CDDFF521ED5601000908EA4 /* TestSingletonClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestSingletonClass.cpp; sourceTree = "<group>"; };
+		0CDDFF531ED5601000908EA4 /* TestSingletonClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestSingletonClass.hpp; sourceTree = "<group>"; };
 		EC14671B1E2F228200871E33 /* TestClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestClass.cpp; sourceTree = "<group>"; };
 		EC14671C1E2F228200871E33 /* TestClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestClass.hpp; sourceTree = "<group>"; };
 		EC14671F1E30E49700871E33 /* TestFloatOverflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestFloatOverflow.cpp; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				EC14671B1E2F228200871E33 /* TestClass.cpp */,
 				EC961D351E13BE820014C7B1 /* TestConstructor.hpp */,
 				EC961D341E13BE820014C7B1 /* TestConstructor.cpp */,
+				0CDDFF521ED5601000908EA4 /* TestSingletonClass.cpp */,
+				0CDDFF531ED5601000908EA4 /* TestSingletonClass.hpp */,
 				EC961D321E13B0D30014C7B1 /* TestClassInherit.hpp */,
 				EC961D311E13B0D30014C7B1 /* TestClassInherit.cpp */,
 			);
@@ -179,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC14671D1E2F228200871E33 /* TestClass.cpp in Sources */,
+				0CDDFF541ED5601000908EA4 /* TestSingletonClass.cpp in Sources */,
 				EC31F6C31E4ABF35004CEF73 /* KeyboardRow_500.cpp in Sources */,
 				EC1467211E30E49700871E33 /* TestFloatOverflow.cpp in Sources */,
 				EC8057691E0A4D560045E34D /* TestFuncArgs.cpp in Sources */,
